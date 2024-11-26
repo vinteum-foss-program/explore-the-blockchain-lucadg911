@@ -1,1 +1,5 @@
-# Only one single output remains unspent from block 123,321. What address was it sent to?
+#!/bin/bash
+cd rust_programs
+cargo build --release
+cd target/release
+./rust_programs 007
